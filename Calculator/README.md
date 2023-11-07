@@ -1,15 +1,10 @@
 # Ex.No:9 Develop a simple calculator using android studio.
 
 ## AIM:
-
 To develop a program to develop a simple calculator in Android Studio.
-
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Latest Version)
-
 ## ALGORITHM:
-
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as calculator and click Next. 
@@ -23,7 +18,6 @@ Step 5: Design layout using UI components in activity_main.xml.
 Step 6: Display the calculator operation in MainActivity file.
 
 Step 7: Save and run the application.
-
 ## PROGRAM:
 ```
 /*
@@ -214,6 +208,6 @@ public class MainActivity extends AppCompatActivity {
             } });}}
 ```
 ## OUTPUT
-![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/cd1a0e7b-69f6-4b7d-86fe-540d89023d04)
+![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/0dabab61-0974-404b-a4f2-346a6634b9c5)
 ## RESULT
 Thus a Simple Android Application develop a program to create simple calculator in Android Studio is developed and executed successfully.
