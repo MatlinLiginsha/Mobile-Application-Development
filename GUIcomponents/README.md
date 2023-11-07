@@ -124,9 +124,7 @@ public class MainActivity extends AppCompatActivity {
 } 
 ```
 ## OUTPUT
-![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/4875229e-3667-44b7-aeee-2d62773a7510)
-![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/ecb6aeef-dfee-4c3b-b92b-fbcdfe8aa36a)
-
+![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/65d77de6-1c15-45f2-944d-2d88b8503cb4)
 ## RESULT
 Thus a Simple Android Application that uses GUI Components with Fonts and Colors using Android Studio is developed and executed successfully.
 
