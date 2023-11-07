@@ -37,8 +37,6 @@ Registeration Number : 212221040104
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-```
-```
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -129,8 +127,6 @@ public class MainActivity extends AppCompatActivity {
  @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-```
-```
         setContentView(R.layout.activity_main);
         btnadd=findViewById(R.id.btnadd);
         btnsubs=findViewById(R.id.btnsubs);
@@ -215,11 +211,7 @@ public class MainActivity extends AppCompatActivity {
                     c = a/b; // Using Third Variable To Store Output Value
                     result.setText("The Division Result Is " + c);
                 }
-            }
-        });
-    }
-}
-
+            } });}}
 ```
 ## OUTPUT
 ![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/cd1a0e7b-69f6-4b7d-86fe-540d89023d04)
