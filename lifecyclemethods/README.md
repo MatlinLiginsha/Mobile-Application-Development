@@ -33,9 +33,11 @@ Developed by: MATLIN LIGINSHA M
 Registeration Number : 212221040104
 */
 ```
+
+
+
 ## activity_main.xml:
 ```
-
     <?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayoutxmlns:
 android="http://schemas.android.com/apk/res/android"
@@ -44,7 +46,6 @@ android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -61,54 +62,45 @@ android="http://schemas.android.com/apk/res/android"
 ## MainActivity.java:
 ```
 package com.example.helloworld;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
-
 public class MainActivity extends AppCompatActivity {
-
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
     // Display toast message when the activity is created
     Toast.makeText(getApplicationContext(), "onCreate Invoked", Toast.LENGTH_LONG).show();
 }
-
 @Override
 protected void onStart(){
     super.onStart();
     Toast.makeText(getApplicationContext(), "onStart Invoked", Toast.LENGTH_LONG).show();
 }
-
+```
+```
 @Override
 protected void onPause(){
     super.onPause();
     Toast.makeText(getApplicationContext(), "onPause Invoked", Toast.LENGTH_LONG).show();
 }
-
 @Override
 protected void onResume(){
     super.onResume();
     Toast.makeText(getApplicationContext(), "onResume Invoked", Toast.LENGTH_LONG).show();
 }
-
 @Override
 protected void onStop(){
     super.onStop();
     Toast.makeText(getApplicationContext(), "onStop Invoked", Toast.LENGTH_LONG).show();
 }
-
 @Override
 protected void onRestart(){
     super.onRestart();
     Toast.makeText(getApplicationContext(), "onRestart Invoked", Toast.LENGTH_LONG).show();
 }
-
 @Override
 protected void onDestroy(){
     super.onDestroy();
