@@ -114,6 +114,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+```
+```
 public class MainActivity extends AppCompatActivity {
     Button btnadd,btnsubs,btnmult,btndiv;
     EditText txt1,txt2;
