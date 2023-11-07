@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
  protected void onCreate(Bundle savedInstanceState) {
  super.onCreate(savedInstanceState);
  setContentView(R.layout.activity_main);
+```
+```
  Bitmap bg = Bitmap.createBitmap(720, 1280, Bitmap.Config.ARGB_8888);
  //Setting the Bitmap as background for the ImageView
  ImageView i = (ImageView) findViewById(R.id.imageView);
