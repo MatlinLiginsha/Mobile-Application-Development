@@ -111,7 +111,7 @@ Registeration Number : 212221040104
 </LinearLayout>
 ```
 ## MainActivity.java
----
+```
 package com.example.calculator;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -124,6 +124,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnadd,btnsubs,btnmult,btndiv;
     EditText txt1,txt2;
     TextView result;
+```
+```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -216,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
----
+```
 ## OUTPUT
 ![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/cd1a0e7b-69f6-4b7d-86fe-540d89023d04)
 ## RESULT
