@@ -37,9 +37,9 @@ Registeration Number : 212221040104
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+```
+```
     xmlns:tools="http://schemas.android.com/tools"
-```
-```
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
@@ -126,11 +126,11 @@ public class MainActivity extends AppCompatActivity {
     Button btnadd,btnsubs,btnmult,btndiv;
     EditText txt1,txt2;
     TextView result;
-```
-```
-    @Override
+ @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+```
+```
         setContentView(R.layout.activity_main);
         btnadd=findViewById(R.id.btnadd);
         btnsubs=findViewById(R.id.btnsubs);
