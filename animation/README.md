@@ -207,6 +207,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ## OUTPUT
-![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/9bb3c79a-8468-4ef9-99c4-5295b41d5570)
+![image](https://github.com/MatlinLiginsha/Mobile-Application-Development/assets/143495913/9867854b-cfff-40b7-ab3a-8e0fe659ef28)
 ## RESULT
-    Thus a Simple Android Application develop to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio is developed and executed successfully.
+
+Thus a Simple Android Application develop to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio is developed and executed successfully.
