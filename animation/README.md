@@ -10,6 +10,7 @@ To develop a application to add animation to imageview,move,blink,fade,clockwise
 Android Studio(Latest Version)
 
 ## ALGORITHM:
+```
 Step1: Start the program
 Step2: Create a necessary xml files
 Step3: Import the necessary packages and libraries.
@@ -21,6 +22,7 @@ Step8: Set click listeners for each button to handle the animation actions.
 Step9: End the click listeners.
 Step10: End the onCreate() method.
 Step11: End the program
+```
 ## PROGRAM:
 ```
 /*
