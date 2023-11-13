@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
 ## MainActivity2.java:
 ```
 package com.example.exintent;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -110,12 +109,12 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-```
-```
         setContentView(R.layout.activity_main2);
         Bundle b=getIntent().getExtras();
         int no=Integer.parseInt(b.getString("number"));
         long f=1;
+```
+```
         for(int i=no;i>0;i--)
         {
             f=f*i;
