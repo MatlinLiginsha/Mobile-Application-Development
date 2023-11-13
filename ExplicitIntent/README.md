@@ -25,9 +25,9 @@ Step 6:Build and run the application to test the functionality of both screens.
 ```
 /*
 Program to print the text “ExplicitIntent”.
-```
-```
 Developed by: MATLIN LIGINSHA M
+```
+```
 Registeration Number : 212221040104
 */
 ```
@@ -66,11 +66,11 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
     EditText etNumber;
     @Override
-```
-```
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+```
+```
         etNumber=findViewById(R.id.etNumber);
     }
     public void displayFactorial(View view){
