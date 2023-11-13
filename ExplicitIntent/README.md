@@ -20,13 +20,13 @@ Step 4:In the second activity, retrieve the factorial value from the Intent usin
 
 Step 5:Update the layout of the second activity to display the factorial value.
 
-Step 6:Declare the second activity in the AndroidManifest.xml file.
-
-Step 7:Build and run the application to test the functionality of both screens.
+Step 6:Build and run the application to test the functionality of both screens.
 ## PROGRAM:
 ```
 /*
 Program to print the text “ExplicitIntent”.
+```
+```
 Developed by: MATLIN LIGINSHA M
 Registeration Number : 212221040104
 */
