@@ -114,6 +114,8 @@ public class CustomAdapter extends BaseAdapter {
     String countryList[];
     int flags[];
     LayoutInflater inflter;
+```
+```
     public CustomAdapter(Context applicationContext, String[] countryList, int[] flags) {
         this.context = context;
         this.countryList = countryList;
