@@ -2,37 +2,20 @@
 
 
 ## AIM:
-
 To develop a application to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio.
-
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Latest Version)
-
 ## ALGORITHM:
-
+``
 Step1: Start the program
-
 Step2: Create a necessary xml files
-
 Step3: Import the necessary packages and libraries.
-
 Step4: Create a class named MainActivity that extends AppCompatActivity.
-
-Step5: Declare ImageView and Button variables for the views in the layout.
-
-Step6: Override the onCreate() method and set the content view to the activity_main layout.
-
-Step7: Initialize the ImageView and Button variables by finding them using their IDs.
-
-Step8: Set click listeners for each button to handle the animation actions.
-
-Step9: End the click listeners.
-
-Step10: End the onCreate() method.
-
-Step11: End the program
-
+Step5: Initialize the ImageView and Button variables by finding them using their IDs.
+Step6: Set click listeners for each button to handle the animation actions.
+Step7: End the onCreate() method.
+Step8: End the program
+``
 ## PROGRAM:
 ```
 /*
@@ -83,8 +66,6 @@ Registeration Number : 212221040104
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925" />
-```
-```
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="328dp"
